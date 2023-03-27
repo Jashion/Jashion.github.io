@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>相册 | Gridea</title>
+<meta name="description" content="温故而知新">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://jashion.github.io/favicon.ico?v=1679885207222">
+<link rel="stylesheet" href="https://jashion.github.io/styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://jashion.github.io">
+        <img src="https://jashion.github.io/images/avatar.png?v=1679885207222" class="site-logo">
+        <h1 class="site-title">Gridea</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      温故而知新
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <h2 class="current-tag">标签: 相册</h2>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://jashion.github.io/post/ios-de-tu-pian-kuang-jia/">
+                  <h2 class="post-title">iOS的图片框架</h2>
+                </a>
+                <div class="post-date">
+                  2019-05-15
+                </div>
+                <div class="post-abstract">
+                  <h2 id="前言">前言</h2>
+<p>今年五月份进的新公司，接手的第一个新项目，里面我主要负责发帖，具体是图文，不包括视频。由于时间紧急，开发时间只有3天，实际上包括开发，测试和修复BUG，用了差不多3周的时间，第一周开发完成基本功能，后面两周测试和修复BUG,由于当时没有做过相册相关的功能，也因为时间紧急，所以，使用了一个<a href="https://github.com/zhuochenming/ImagePickerController">第三方的库</a>，大家可以去看一下，写的比较全面。后来，项目完成之后，终于有时间，静下心慢慢研究iOS的图片框架了，个人对于不懂的东西，好奇心和求知欲还是比较强的。</p>
+
+                </div>
+              </div>
+              
+                <a class="right" href="https://jashion.github.io/post/ios-de-tu-pian-kuang-jia/">
+                  <div class="feature-container" style="background-image: url('https://jashion.github.io/post-images/ios-de-tu-pian-kuang-jia.jpg')">
+                  </div>
+                </a>
+              
+            </article>
+          
+
+          <div class="pagination-container">
+  
+  
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+  </body>
+</html>
